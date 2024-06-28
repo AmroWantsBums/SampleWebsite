@@ -8,6 +8,7 @@ export function loadNavbar(CurrentPageName){
     const ul = document.createElement("ul");
     for(let page of navPages){
         const li = document.createElement("li");
+        li.classList.add("navBarOption");
         if (CurrentPageName != page.name){
             const a = document.createElement("a");
             a.innerText = page.name;

@@ -1,0 +1,68 @@
+body{
+    overflow: hidden;
+}
+
+#backgroundGradient{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        112deg,
+        rgba(255, 192, 203, 0.9) 0%,
+        rgba(255, 129, 150, 0.9) 50%,
+        rgba(132, 240, 240, 0.9) 50%,
+        rgba(112, 241, 241, 0.9) 100%
+    );
+    z-index: -1;
+}
+
+#schoolBoyImage{
+    position: relative;
+    top: 50px;
+    left: 420px;
+    width: auto;
+    height: 600px;
+}
+
+#backgroundImage{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-image: url("../Images/CityBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+#headingText{
+    position: fixed;
+    top: 240px;
+    left: 220px;
+    font-size: 60px;
+    width: 380px;
+    text-align: center;
+}
+
+#bodyText{
+    position: fixed;
+    top: 240px;
+    left: 920px;
+    font-size: 20px;
+    width: 380px;
+    text-align: center;
+}
+
+#fiverLinkButton{
+    position: relative;
+    left: -250px;
+    top: -190px;
+    width: 120px;
+    height: 40px;
+    border-style: none;
+    background-color: rgba(238, 246, 253, 0.46);
+    border-radius: 2px;
+}

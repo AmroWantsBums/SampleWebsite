@@ -1,19 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Website</title>
-    <script type="module"> import {loadNavbar} from "./Java/navigationBar.js" 
-        loadNavbar("Home")</script>
+    <script type="module"> import { loadNavbar } from "./Java/navigationBar.js"
+        loadNavbar("Home")
+    </script>
+    <link rel="stylesheet" href="/CSS/navigationBar.css">
+    <link rel="stylesheet" href="/CSS/generalStyling.css">
+    <script src="/Java/indexPageJavascript.js"></script>
 </head>
-<body>    
+
+<body>
     <header>
-        <nav>
+        <nav id="navBar">
 
         </nav>
     </header>
 
-    <h1>This is just a sample</h1>
+    <div id="backgroundGradient"></div>
+
+    <div id="backgroundImage"></div>
+
+    <img id="schoolBoyImage" src="/Images/SchoolBoy.png">
+
+    <div id="headingText">Take your business to the next level</div>
+
+    <p id="bodyText">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quo inventore porro eveniet, iusto nobis amet
+        pariatur recusandae laudantium saepe quaerat, accusamus vero, enim eius numquam ducimus culpa voluptatibus
+        accusantium.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa tempore necessitatibus sit! Maxime possimus
+        quidem tenetur numquam doloribus ipsum eum vero, voluptatum consequatur explicabo blanditiis expedita nisi quam
+        id! Reiciendis.
+    </p>
+
+    <button id="fiverLinkButton" type="button">Make a booking</button>
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>
