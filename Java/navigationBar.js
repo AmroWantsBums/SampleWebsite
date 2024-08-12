@@ -1,6 +1,7 @@
 const navPages = [
     {name: "Home" , href: '/SampleWebsite/index.html'},
-    {name: "About Me", href: '/SampleWebsite/AboutMeFolder/aboutMe.html'}
+    {name: "About Me", href: '/SampleWebsite/AboutMeFolder/aboutMe.html'},
+    {name: "Pricing", href: 'SampleWebsite/PricingFolder/pricing.html'}
 ];
 
 export function loadNavbar(CurrentPageName){
@@ -17,6 +18,7 @@ export function loadNavbar(CurrentPageName){
         } 
         else{
             li.innerText = page.name;
+            li.style.textDecoration = "underline";
         }
         ul.appendChild(li);        
     }
