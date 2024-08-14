@@ -6,7 +6,7 @@ body{
     width: 100%; 
     height: auto;
     overflow: hidden;
-    
+    font-family: 'poppins', sans-serif;
 }
 
 #header{
@@ -48,7 +48,7 @@ body{
 
 #navBar{
     position: relative;
-    left: 840px;
+    left: 770px;
     display: flex;
     gap: 15px;
 }
@@ -57,7 +57,7 @@ body{
     color: black;
     justify-content: center;
     text-decoration: none;
-    width: 70px;
+    width: 80px;
 }
 
 #mediaDisplay{
@@ -67,7 +67,7 @@ body{
 #video{
     position: relative;
     left: 710px;
-    top: 110px;
+    top: 70px;
     width: 500px;
     border-radius: 23px;
     filter:brightness(0.7);
@@ -78,7 +78,29 @@ body{
     position: relative;
     width: 380px;
     left: 80px;
-    top: -200px;
+    top: -310px;
     background-color: rgba(166, 151, 151, 0.249);
     border-radius: 25px;
+    font-size: 15px;
+}
+
+#socials{
+    position: relative;
+    top: -5px;
+    left: 550px;
+    width: 150px;
+
+}
+
+#heading{
+    position: relative;
+    left: 940px;
+    top: 40px;
+    font-size: 20px;
+}
+
+#credits{
+    position: relative;
+    left: 1100px;
+    top: -55px;
 }
